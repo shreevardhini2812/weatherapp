@@ -19,7 +19,7 @@ const Home = () => {
     if (!city) return;
 
     try {
-      const res = await axios.get(`http://localhost:5000/api/weather/${city}`, {
+      const res = await axios.get(`https://weatherapp-kk03.onrender.com/api/weather/${city}`, {
         headers: { Authorization: `Bearer ${token}` }, // ✅ "Bearer " included
       });
       setWeather(res.data);

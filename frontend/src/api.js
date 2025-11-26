@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api', // make sure this matches backend port
+  baseURL: 'https://weatherapp-kk03.onrender.com/api', // make sure this matches backend port
 });
 
 // REGISTER
