@@ -10,7 +10,7 @@ connectDB();
 
 const app = express();
 app.use(cors({
-    origin: "https://weatap.netlify.app/", 
+    origin: "https://weatap.netlify.app", 
     methods: "GET,POST,PUT,DELETE"
 }));
 app.use(express.json());
